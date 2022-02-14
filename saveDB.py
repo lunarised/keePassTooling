@@ -11,7 +11,7 @@ with open("paths.json", "r") as read_file:
 localPath = data["local"]["localPath"]
 remotePath = data["remote"]["remotePath"]
 user = data["remote"]["username"]
-
+remoteHost = data["remote"]["remoteHost"]
 p = subprocess.Popen(f'scp {localPath} {user}@{remoteHost}:{remotePath}', shell=True, cwd=cwd)
 sts = p.wait()
 input("Save done")
