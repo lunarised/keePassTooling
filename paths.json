@@ -1,0 +1,10 @@
+{
+    "remote": {
+        "username": "tdavis",
+        "remoteHost": "example.com",
+        "remotePath": "/home/tdavis/Database.kdbx"
+    },
+    "local": {
+        "localPath": "Database.kdbx"
+    }
+}
